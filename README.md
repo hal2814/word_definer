@@ -20,4 +20,6 @@ clone file onto desktop and run 'ruby app.rb'
 
 ![alt text](/public/img/screen.png)
 
+Application page: https://nameless-garden-38169.herokuapp.com/
+
 copyright Nate McGregor 2017
