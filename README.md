@@ -1,3 +1,5 @@
+#Word Definer
+
 Author: Nate McGregor
 
 Description: A website where children can see a list of words they might not know and click on a word to see the definition of the word.
