@@ -1,9 +1,14 @@
-#Word Definer
+Word Definer
+============
 
-Author: Nate McGregor
+Author:
+Nate McGregor
 
-Description: A website where children can see a list of words they might not know and click on a word to see the definition of the word.
+Description:
+A website where children can see a list of words they might not know and click on a word to see the definition of the word.
 
+Setup instructions:
+clone file onto desktop and run 'ruby app.rb'
 
 | Spec                                                       | input                                                                                             | input 2                                              | output     | output 2    |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------|------------|-------------|
@@ -13,5 +18,6 @@ Description: A website where children can see a list of words they might not kno
 | Will save number for each word                             | "Endemic","Native to a specific region or environment and not occurring naturally anywhere else." | "Innervate","To stimulate or supply nervous energy." | 1          | 2           |
 | Will find the word in the word list                        | "Endemic","Native to a specific region or environment and not occurring naturally anywhere else." | "Innervate","To stimulate or supply nervous energy." | first word | second word |
 
+![alt text](/public/img/screen.png)
 
 copyright Nate McGregor 2017
