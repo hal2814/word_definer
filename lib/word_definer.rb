@@ -1,11 +1,11 @@
 class Word
   @@list = []
   attr_reader :id
-  attr_accessor :word,:definition
-  def initialize(word,definition)
+  attr_accessor :word,:definition, :picture
+  def initialize(word,definition,picture)
     @word = word
     @definition = definition
-    # @picture
+    @picture = picture
     @id = @@list.length + 1
   end
 
@@ -30,9 +30,10 @@ class Word
     end
   end
 
-  def update(word,definition)
+  def update(word,definition,picture)
     self.word = word
     self.definition = definition
+    self.picture = picture
   end
 
 
