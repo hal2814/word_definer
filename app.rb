@@ -5,10 +5,10 @@ require('./lib/word_definer')
 require('pry')
 
 
-word1 = Word.new("Endemic","Native to a specific region or environment and not occurring naturally anywhere else.","http://www.cepf.net/SiteCollectionImages/other/ci_78938240%20(1).jpg")
+word1 = Word.new("Fastidious","Very attentive to and concerned about accuracy and detail.","https://iheartvocabulary.files.wordpress.com/2014/03/fastidious.jpg")
 word1.save()
 word1.setId(1)
-word1 = Word.new("Innervate","To stimulate or supply nervous energy.","http://wiki.teamliquid.net/commons/images/3/35/Innervate_hs.png")
+word1 = Word.new("Temerity","Excessive confidence or boldness; audacity.","https://personaltao.com/wp-content/uploads/2008/03/Ego.jpg")
 word1.save()
 word1.setId(2)
 word1 = Word.new("Vacuous","Having or showing a lack of thought or intelligence.","https://4.bp.blogspot.com/-nLDMbTVwOJc/WLYO2WAk8wI/AAAAAAAAPyI/wyy0vKrqNPMl_BOLGsEyXUc02RUbnfVbQCLcB/s1600/Rom_Artwork.jpg")
@@ -39,28 +39,6 @@ post('/') do
   @list = Word.all()
   erb(:list)
 end
-
-# post('/word/:id') do
-#   @word_to_display = Word.find(params[:id])
-#   Word.delete(@word_to_display.id)
-#   erb(:word)
-# end
-
-# get('/update/:id') do
-#   @word_to_display = Word.find(params[:id])
-#   erb(:update)
-# end
-
-# post('/update/:id') do
-#   word = params['theWord']
-#   definition = params['theDefinition']
-#   picture = params['thePicture']
-#
-#   @word_to_display = Word.find(params[:id])
-#
-#   @word_to_display.update(word,definition,picture)
-#   erb(:update)
-# end
 
 get('/word/:id') do
   @word_to_display = Word.find(params[:id])
