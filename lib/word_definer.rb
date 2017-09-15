@@ -9,6 +9,10 @@ class Word
     @id = @@list.length + 1
   end
 
+  def setId(id)
+    @id = id.to_i()
+  end
+
   def self.all()
     @@list
   end
