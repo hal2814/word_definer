@@ -1,0 +1,18 @@
+.form-control {
+  width: 50%
+}
+
+h1 {
+  font-family: serif;
+}
+
+h4 {
+  font-family: monospace;
+}
+body {
+  background-color: teal;
+}
+
+a {
+  color: hotpink;
+}
