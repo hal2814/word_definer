@@ -5,6 +5,7 @@ class Word
   def initialize(word,definition)
     @word = word
     @definition = definition
+    # @picture
     @id = @@list.length + 1
   end
 
