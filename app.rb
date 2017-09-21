@@ -30,7 +30,7 @@ get('/add_def/:id') do
   erb(:add_def)
 end
 
-post('/add_def/') do
+post('/add_def/:id') do
   definition = params['moreDef']
 
   @word_to_display = WordDefiner.find(params[:id])
