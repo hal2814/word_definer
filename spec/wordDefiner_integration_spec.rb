@@ -9,7 +9,6 @@ describe('list path', {:type => :feature}) do
     fill_in('theWord', :with => "Endemic")
     fill_in('theDefinition', :with => "Native to a specific region or environment and not occurring naturally anywhere else.")
 
-
     click_button('Add word')
     expect(page).to have_content("Endemic")
   end

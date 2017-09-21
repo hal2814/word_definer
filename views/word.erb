@@ -1,5 +1,15 @@
 <h1><%= @word_to_display.word %></h1>
-<h3><%= @word_to_display.definition %></h3>
+<% @word_to_display.definitions.each do |defin| %>
+  <h3><%= defin %></h3>
+<% end %>
+
+
+
+
+
+
 <img src="<%= @word_to_display.picture %>" class="picture">
+
+<h4><a href="/add_def/<%= @word_to_display.id %>">Add more defintions for <%=@word_to_display.word%></a></h4>
 
 <h5><a href='/'>Go back to list of words</a></h5>

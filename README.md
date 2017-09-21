@@ -1,4 +1,4 @@
-Word Definer
+WordDefiner Definer
 ============
 
 Author:
